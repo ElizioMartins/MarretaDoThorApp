@@ -3,14 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MarretaLibModule } from 'marreta-lib';
+import { LayoutBrancoComponent } from './layout-branco/layout-branco.component'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LayoutBrancoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MarretaLibModule
   ],
   providers: [],
   bootstrap: [AppComponent]
